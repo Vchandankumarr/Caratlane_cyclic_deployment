@@ -4,6 +4,13 @@ const { Createproductmodel } = require("../models/product.model")
 const userrender=express.Router()
 
 
+userrender.get("/userrrr",async(req,res)=>{
+    try {
+        res.send("User render page")
+    } catch (error) {
+        
+    }
+})
 
 userrender.get("/products",async(req,res)=>
 {
