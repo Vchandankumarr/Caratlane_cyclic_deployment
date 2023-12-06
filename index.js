@@ -10,7 +10,7 @@ const {adminRouter}=require("./routees/admin.router")
 const{authentication}=require("./middlewares/authenticationmiddleware")
 const cors = require('cors')
 
-
+// new comment added
 const app=express()
 app.use(cors({
     origin:"*"
